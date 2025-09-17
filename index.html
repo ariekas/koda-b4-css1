@@ -4,16 +4,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
         .board {
             display:inline-block; 
             border: 1px black solid;
             margin-top: 10px;
         }
         .row {
-            display: inline-block;
+            font-size: 0;
         }
         .row div{
+            display: inline-block;
             height: 50px; width: 50px;
+            font-size: 16px;
         }
 
         .row div.col-black {
