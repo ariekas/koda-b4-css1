@@ -5,15 +5,12 @@
     <title>Document</title>
     <style>
         .board {
-            display:inline-flex; 
+            display:inline-block; 
             border: 1px black solid;
             margin-top: 10px;
         }
-        .board .position {
-            display: grid;
-        }
         .row {
-            display: inline-flex;
+            display: inline-block;
         }
         .row div{
             height: 50px; width: 50px;
@@ -26,7 +23,6 @@
 </head>
 <body >
     <div class="board">
-        <div class="position">
             <div class="row">
                 <div  class="col-black"></div>
                 <div  ></div>
@@ -107,8 +103,6 @@
                 <div  ></div>
                 <div class="col-black"></div>
             </div>
-           
-        </div>
     </div>
    
 </body>
